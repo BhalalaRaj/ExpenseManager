@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Add Expense"
+            android:id="@+id/add_expense"
+            android:icon="@drawable/add_expense"/>
+
+        <item android:title="All Expense List"
+            android:icon="@drawable/all_list_icon"
+            android:id="@+id/all_expense"/>
+
+        <item android:title="View Expense Date wise"
+            android:id="@+id/view_expense_date_wise"
+            android:icon="@drawable/date_wise"/>
+
+        <item android:title="View Expense Category wise"
+            android:id="@+id/view_expense_category_wise"
+            android:icon="@drawable/category_wise"/>
+
+    </group>
+
+
+<item android:title="Advanced">
+    <menu>
+        <item android:title="Settings"
+            android:id="@+id/settings"
+            android:icon="@drawable/settings"/>
+        <item android:title="Logout"
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"/>
+    </menu>
+</item>
+
+
+</menu>

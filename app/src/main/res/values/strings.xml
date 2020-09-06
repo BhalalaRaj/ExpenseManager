@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Expense Manager</string>
+
+    <string name="name">Enter valid name</string>
+    <string name="email">Enter valid email Id</string>
+    <string name="contact">Enter valid contact no</string>
+    <string name="password">Enter valid password</string>
+    <string name="not_match_password">Password doesn\'t match</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--<string name="hello_blank_fragment">Hello blank fragment</string>-->
+
+    <!--Spinner array-->
+
+    <string-array name="expense_array_spinner">
+        <item>Family or Personal</item>
+        <item>Health</item>
+        <item>Food</item>
+        <item>Travelling</item>
+        <item>Entertainment</item>
+        <item>Bills Payment</item>
+        <item>Shopping</item>
+        <item>Grocery</item>
+        <item>EMI</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <!--Spinner array-->
+
+    <string-array name="payment_method_array_spinner">
+        <item>Cash</item>
+        <item>Check</item>
+        <item>Credit card</item>
+        <item>Debit card</item>
+        <item>UPI</item>
+    </string-array>
+
+
+</resources>

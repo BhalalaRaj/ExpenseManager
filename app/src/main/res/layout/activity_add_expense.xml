@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddExpense">
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="add your expense"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/select_category"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/header_title"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/header_title"
+        app:layout_constraintTop_toBottomOf="@+id/header_title" />
+
+    <EditText
+        android:id="@+id/ammount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:inputType="number"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:hint="Amount (₹)"
+        app:layout_constraintEnd_toEndOf="@+id/select_category"
+        app:layout_constraintStart_toStartOf="@+id/select_category"
+        app:layout_constraintTop_toBottomOf="@+id/select_category" />
+
+    <EditText
+        android:id="@+id/short_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="Expense detail (short)"
+        app:layout_constraintEnd_toEndOf="@+id/ammount"
+        app:layout_constraintStart_toStartOf="@+id/ammount"
+        app:layout_constraintTop_toBottomOf="@+id/ammount" />
+
+    <Spinner
+        android:id="@+id/payment_method"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/short_detail"
+        app:layout_constraintStart_toStartOf="@+id/short_detail"
+        app:layout_constraintTop_toBottomOf="@+id/short_detail" />
+
+    <Button
+        android:id="@+id/add_expense_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/btn_design"
+        android:text="Add Expense"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/payment_method"
+        app:layout_constraintStart_toStartOf="@+id/payment_method"
+        app:layout_constraintTop_toBottomOf="@+id/payment_method" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

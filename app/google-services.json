@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "545825392529",
+    "firebase_url": "https://expense-manager-9b616.firebaseio.com",
+    "project_id": "expense-manager-9b616",
+    "storage_bucket": "expense-manager-9b616.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545825392529:android:91cc40c77d2c28bf5b3c30",
+        "android_client_info": {
+          "package_name": "com.example.dell.expensemanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545825392529-5c6888tsogjqlm5rmu2abn8uudm94d98.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.expensemanager",
+            "certificate_hash": "032ab9e04c48dd0ff73cfbe94e319cd24310d60e"
+          }
+        },
+        {
+          "client_id": "545825392529-vmqm74svkqkjfcvobibc3dtf3dpbl7i8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT3TtGb7QrGiYGvP850NGvm62omJ_yd54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545825392529-vmqm74svkqkjfcvobibc3dtf3dpbl7i8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
